@@ -13,7 +13,8 @@ from flask import Flask
 from flask import request
 from flask.ext.cors import CORS
 from os.path import exists
-from pip._vendor import requests, os
+import os
+#from pip._vendor import requests, os
 from pymongo import MongoClient
 
 
