@@ -1,4 +1,3 @@
-import threading
 import nltk
 import nltk.corpus
 import nltk.tokenize.punkt
@@ -56,9 +55,9 @@ stopwords = [
     'then',
     'www']
 
-keywords = ['timesheet', 'timesheets', 'route']
+keywords = ['botfactory']
 keywordsinquestion = []
-questionwords = [ "what", "where", "why", "how", "who", "which", "when", "whom", "whose", "can" ]#, "is", "are", "am", "have", "did", "do", "does", "tell", "from", ]
+questionwords = [ "what", "where", "why", "how", "who", "which", "when", "whom", "whose", "can", "is", "are", "am", "have", "did", "do", "does", "tell", "from"]
 
 class AI(object):
 
