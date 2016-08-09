@@ -14,7 +14,6 @@ from flask import request
 from flask.ext.cors import CORS
 from os.path import exists
 import os
-#from pip._vendor import requests, os
 from pymongo import MongoClient
 
 
